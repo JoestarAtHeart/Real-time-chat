@@ -20,7 +20,7 @@ Frontend is a static client (HTML/CSS/JS), backend runs on Node.js with WebSocke
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git](https://github.com/JoestarAtHeart/Real-time-chat.git
+   git clone https://github.com/JoestarAtHeart/Real-time-chat.git
    cd Real-time-chat/
 
 2. Install server dependencies:
