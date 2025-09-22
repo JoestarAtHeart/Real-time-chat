@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Chat</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="logo">
+          <img
+            src="./images/logo.svg"
+            alt="logo RealTime Chat"
+            class="logo-image"
+          />
+        </div>
+
+        <section class="channels-control">
+          <form action="" class="search-form">
+            <label for="search-channel-input">Search channel</label>
+            <div class="search-field">
+              <input
+                type="text"
+                class="search-channel-input"
+                id="search-channel-input"
+                placeholder="Enter channel name..."
+              />
+              <button class="clear-field-button" type="button">
+                <img
+                  src="./images/delete-icon.svg"
+                  alt="delete icon"
+                  class="delete-icon"
+                />
+              </button>
+              <button class="search-button" type="submit">
+                <img
+                  src="./images/search-icon.svg"
+                  alt="search icon"
+                  class="search-icon"
+                />
+              </button>
+            </div>
+          </form>
+
+          <form action="" class="create-channel-form" method="post">
+            <label for="create-channel-input">Create channel</label>
+            <div class="create-channel-field">
+              <input
+                type="text"
+                class="create-channel-input"
+                id="create-channel-input"
+                placeholder="Enter channel name..."
+              />
+              <button class="create-channel-button" type="submit">
+                <img
+                  src="./images/add-icon.svg"
+                  alt="create icon"
+                  class="create-channel-icon"
+                />
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <section class="channels-container">
+          <div class="channels-title">Channels</div>
+          <ul class="channels-list"></ul>
+        </section>
+      </aside>
+
+      <main class="main active-chat">
+        <header class="active-chat-header">
+          <div class="active-chat-name">Channel name</div>
+          <button class="chat-members-button">
+            <img
+              src="./images/channel-members-icon.svg"
+              alt="chat members icon"
+              class="chat-members-icon"
+            />
+          </button>
+        </header>
+
+        <section class="active-chat-container">
+          <div class="messages-container"></div>
+
+          <section class="channel-members-container">
+            <div class="members-header">
+              <div class="members-title">Members</div>
+              <button class="add-user-button">
+                <img
+                  src="./images/add-user-icon.svg"
+                  alt="add user icon"
+                  class="add-user-icon"
+                />
+              </button>
+            </div>
+
+            <div class="members">
+              <ul class="members-list">
+              </ul>
+            </div>
+          </section>
+        </section>
+
+        <section class="new-message-container">
+          <form action="" class="new-message-form" method="post">
+            <input
+              type="text"
+              class="message-input"
+              placeholder="Type a message..."
+            />
+            <button type="submit" class="send-message-button">
+              <img
+                src="./images/send-message-icon.svg"
+                alt="send message icon"
+                class="send-message-icon"
+              />
+            </button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <section class="popup-container">
+      <div class="add-user-popup">
+        <button class="close-popup-button">
+          <img
+            src="./images/delete-icon.svg"
+            alt="close window icon"
+            class="close-popup-icon"
+          />
+        </button>
+
+        <form action="" class="user-search-form">
+          <label for="search-user-input">Search user</label>
+          <div class="search-user-field">
+            <input
+              type="text"
+              class="search-user-input"
+              id="search-user-input"
+              placeholder="Enter username..."
+            />
+            <button class="search-user-button" type="submit">
+              <img
+                src="./images/search-user-icon.svg"
+                alt="search user icon"
+                class="search-user-icon"
+              />
+            </button>
+          </div>
+        </form>
+
+        <div class="search-user-results">
+          <ul class="search-user-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
