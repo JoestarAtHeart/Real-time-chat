@@ -12,3 +12,4 @@ Frontend is a static client (HTML/CSS/JS), backend runs on Node.js with WebSocke
 - Kick users (only channel creator)  
 - Search users and channels  
 - Real-time messaging with history  
+- **General channel**: default channel available for everyone. It cannot be deleted, and users cannot be invited/kicked from it.  
