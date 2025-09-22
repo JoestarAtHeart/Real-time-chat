@@ -47,3 +47,9 @@ Frontend is a static client (HTML/CSS/JS), backend runs on Node.js with WebSocke
 ## Project Structure
 - **server/** – backend (Node.js + Express + Socket.IO)  
 - **client/** – frontend (HTML, CSS, JavaScript)
+
+---
+
+## Design (Figma)
+The initial layout was created in Figma:  
+[View Figma design]([https://www.figma.com/file/your-link-here](https://www.figma.com/design/gpNKtEH3DxlIajz4jPzA9H/Real-Time-Chat?node-id=1-2&t=qsprK8gKUMYCKWNw-1))
