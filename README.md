@@ -52,4 +52,4 @@ Frontend is a static client (HTML/CSS/JS), backend runs on Node.js with WebSocke
 
 ## Design (Figma)
 The initial layout was created in Figma:  
-[View Figma design] (https://www.figma.com/design/gpNKtEH3DxlIajz4jPzA9H/Real-Time-Chat?node-id=1-2&t=qsprK8gKUMYCKWNw-1)
+[View Figma design](https://www.figma.com/design/gpNKtEH3DxlIajz4jPzA9H/Real-Time-Chat?node-id=1-2&t=qsprK8gKUMYCKWNw-1)
