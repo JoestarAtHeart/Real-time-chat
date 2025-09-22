@@ -35,3 +35,15 @@ Frontend is a static client (HTML/CSS/JS), backend runs on Node.js with WebSocke
 4. Open the client:
 - Open client/index.html directly in your browser
 - Or serve it with any static server (e.g. VS Code Live Server extension).
+
+---
+
+## Requirements
+- Node.js (>=14)
+- npm
+
+---
+
+## Project Structure
+- **server/** – backend (Node.js + Express + Socket.IO)  
+- **client/** – frontend (HTML, CSS, JavaScript)
